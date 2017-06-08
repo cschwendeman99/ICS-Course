@@ -1,7 +1,7 @@
 puts 'Enter a starting year: '
-stating_year = gets.chomp.to_i
+starting_year = gets.chomp.to_i
 puts 'Enter an ending year: '
-ending_year = get.chomp.to_i
+ending_year = gets.chomp.to_i
 puts 'The leap years between starting and ending years are: '
 year = starting_year
 while year <= ending_year
