@@ -1,3 +1,3 @@
-puts 'I AM BUSY! What do you want?'
+puts 'I AM BUSY! WHAT DO YOU WANT?'
 answer = gets.chomp
-puts 'WHAT! Did you say "' + answer.upcase + '" You are fired!!'
+puts 'WHAT! DID YOU SAY "' + answer.upcase + '" YOUR FIRED!!'
