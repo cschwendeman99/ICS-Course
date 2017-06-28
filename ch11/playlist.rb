@@ -14,4 +14,11 @@ def shuffle array
   end
   shuffle_array
 end
-puts(shuffle([1,2,3,4,5,6,7,8,9]))
+
+music = shuffle(Dir['**/*.ogg'])
+File.open 'playlist.m3u', 'w' do |f|
+  music.each do |ogg|
+    f.write ogg + "\n"
+  end
+end
+puts "Finished"

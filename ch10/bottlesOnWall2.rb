@@ -69,6 +69,7 @@ while current_value > 2
    current_value = current_value - 1
    puts 'Take one down, pass it around, ' + english_number(current_value) +
         ' bottles of beer on the wall!'
+   puts ''
 end
 puts 'Two bottles of beer on the wall, two bottles of beer!'
 puts 'Take one down, pass it around, one bottle of beer on the wall!'
